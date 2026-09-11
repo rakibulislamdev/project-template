@@ -46,6 +46,17 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  
+  /* Custom Variables for Auth & Dashboard */
+  --color-auth-background: var(--auth-background);
+  --color-auth-foreground: var(--auth-foreground);
+  --color-auth-primary: var(--auth-primary);
+  --color-auth-primary-foreground: var(--auth-primary-foreground);
+  
+  --color-dashboard-background: var(--dashboard-background);
+  --color-dashboard-foreground: var(--dashboard-foreground);
+  --color-dashboard-primary: var(--dashboard-primary);
+  --color-dashboard-primary-foreground: var(--dashboard-primary-foreground);
 }
 
 :root {
@@ -81,6 +92,17 @@
   --sidebar-accent-foreground: #1A1A1A;
   --sidebar-border: #E2E8F0;
   --sidebar-ring: #3A8F5C;
+
+  /* Custom Variables for Auth & Dashboard (Light Mode) */
+  --auth-background: #F8FAFC;
+  --auth-foreground: #0F172A;
+  --auth-primary: #3A8F5C;
+  --auth-primary-foreground: #FFFFFF;
+
+  --dashboard-background: #F1F5F9;
+  --dashboard-foreground: #0F172A;
+  --dashboard-primary: #3A8F5C;
+  --dashboard-primary-foreground: #FFFFFF;
 }
 
 .dark {
@@ -115,6 +137,17 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+
+  /* Custom Variables for Auth & Dashboard (Dark Mode) */
+  --auth-background: oklch(0.145 0 0);
+  --auth-foreground: oklch(0.985 0 0);
+  --auth-primary: oklch(0.922 0 0);
+  --auth-primary-foreground: oklch(0.205 0 0);
+
+  --dashboard-background: oklch(0.125 0 0);
+  --dashboard-foreground: oklch(0.985 0 0);
+  --dashboard-primary: oklch(0.922 0 0);
+  --dashboard-primary-foreground: oklch(0.205 0 0);
 }
 
 @layer base {
